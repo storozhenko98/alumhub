@@ -1,0 +1,23 @@
+{
+  "name": "alumhub",
+  "version": "1.0.0",
+  "description": "Front and Back End for AlumHub Splash",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storozhenko98/alumhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storozhenko98/alumhub/issues"
+  },
+  "homepage": "https://github.com/storozhenko98/alumhub#readme",
+  "dependencies": {
+    "querystring": "^0.2.1"
+  }
+}

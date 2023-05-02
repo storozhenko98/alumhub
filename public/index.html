@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>AlumHub - FAU High Alumni Network</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to AlumHub</h1>
+    <h2>FAU High Alumni Network</h2>
+  </header>
+  
+  <main>
+    <p id="Message">We're currently building an platform to foster communication, networking, and support among FAU High Alumni. We plan for it to be non-profit, alumni-run, and unbound by affiliation with the school itself. Stay tuned!</p>
+    <button id="formButton">Keep Me in the Loop!</button>
+  </main>
+
+  <div id="formContainer" class="hidden">
+    <form action="/submit-form" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="gradYear">Graduation Year:</label>
+      <input type="number" id="gradYear" name="gradYear" min="1900" max="2099" step="1" required><br>
+
+      
+      <div class="willing-to-help-container">
+        <label for="willingToHelp">Willing to help?:</label>
+        <input type="checkbox" id="willingToHelp" name="willingToHelp">
+      </div>
+
+      <button id="subber" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
