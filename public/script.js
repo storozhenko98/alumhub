@@ -7,8 +7,3 @@ formButton.addEventListener('click', () => {
   formContainer.classList.toggle('hidden');
 });
 
-subber.addEventListener('click', () => {
-  message.innerHTML = 'Thanks for subscribing!';
-  //remove all buttons 
-  formButton.classList.add('hidden');
-});
